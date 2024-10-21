@@ -1,7 +1,3 @@
-# Autograder file
-# Ignore specific zip files
-dist-task2/autograder/*.zip
-dist-task3/autograder/*.zip 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
