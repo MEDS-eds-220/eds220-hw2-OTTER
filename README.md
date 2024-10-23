@@ -146,3 +146,10 @@ This respository contains materials to set up the [otter grader](https://otter-g
     └── hwk1-task2-salmon.ipynb                           # this is the master notebook for task 2, it contains all s                                                                   solutions and tests, this notebook is used to generate the                                                                  student notebook and all necessary files for the assignemnt
     └── hwk1-task3-aqi.ipynb                              # this is the master notebook for task 2, it contains all s                                                                   solutions and tests, this notebook is used to generate the                                                                  student notebook and all necessary files for the assignemnt
     └── README.md                                    
+
+
+
+
+### Updates to HW 2
+
+In Homework 1, students were not able to see their autograder score before submitting because all tests were hidden. ( We worked around this by creating a sepearate autograder assignment in which students would upload their notebook and their autograder score would show because we published the grades immediatley. However, with this method students were not able to see which question exactly they got wrong - just their overall score.) In Homework 2, we have created public tests so students can see which question specifically they got wrong. When creating public tests, there are grader check cells within the notebook. We deleted all these cells because in order for them to run you need to provide the student with the data folder (which has all the solution dataframes that the tests are comparing the student's answer to), as well as the tests themselves. Deleting the in notebook grader check cells allowed us to only provide the students with the notebook and for them to see their grade/ what questions they got wrong on Gradescope only. 
