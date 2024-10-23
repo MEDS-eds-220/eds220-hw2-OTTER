@@ -81,7 +81,7 @@ This respository contains materials to set up the [otter grader](https://otter-g
                 └── q6.py                                 # .py test file for question 6
                 └── q7.py                                 # .py test file for question 7
                 └── q8.py                                 # .py test file for question 8
-            └── hwk1-task2-corals.ipynb                   # this is the notebook that should be distrubted to the students,                                                             all solutions are removed and all tests have been manually                                                                  deleted within the notebook, but are public to students on                                                                  gradescope     
+           └── hwk1-task2-corals.ipynb                   # this is the notebook that should be distrubted to the students,                                                             all solutions are removed and all tests have been manually                                                                  deleted within the notebook, but are public to students on                                                                  gradescope     
     └── dist-task3/                                        
         └── autograder/                                              
             └── data/                                     # contains all data needed to run the notebook, csvs that start                                                               with t2 or t3 are used in the otter tests to check if the                                                                   student's solution matches the csv with the solution
@@ -139,7 +139,7 @@ This respository contains materials to set up the [otter grader](https://otter-g
                 └── q6_a.py                               # .py test file for question 6a
                 └── q8.py                                 # .py test file for question 8
                 └── q9.py                                 # .py test file for question 9
-            └── hwk2-task3-aqi.ipynb                      # this is the notebook that should be distrubted to the students,                                                             all solutions are removed and all tests have been manually                                                                  deleted within the notebook, but are public to students on                                                                  gradescope                                                                                                               
+           └── hwk2-task3-aqi.ipynb                      # this is the notebook that should be distrubted to the students,                                                             all solutions are removed and all tests have been manually                                                                  deleted within the notebook, but are public to students on                                                                  gradescope                                                                                                               
         
     └── .gitignore                  
     └── LICENSE
