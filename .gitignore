@@ -163,5 +163,3 @@ cython_debug/
 #.idea/
 
 .DS_Store
-dist-task2/autograder/*.zip
-dist-task3/autograder/*.zip
