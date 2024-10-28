@@ -2,10 +2,14 @@ OK_FORMAT = True
 
 test = {   'name': 'q5',
     'points': 2,
-    'suites': [   {   'cases': [   {'code': '>>> len(catch_I) == 1\nTrue', 'hidden': False, 'locked': False},
-                                   {'code': '>>> bool(catch_I.iloc[0, 1] == 1955)\nTrue', 'hidden': False, 'locked': False},
-                                   {'code': ">>> bool(catch_I.iloc[0, 0] == 'GSE')\nTrue", 'hidden': False, 'locked': False},
-                                   {'code': ">>> bool(catch_I.iloc[0, 3] == 'I')\nTrue", 'hidden': False, 'locked': False}],
+    'suites': [   {   'cases': [   {   'code': '>>> def test_q5(student_data):\n'
+                                               '...     try:\n'
+                                               "...         expected_data = pd.read_csv('data/t2_q5_df.csv')\n"
+                                               '...         pd.testing.assert_frame_equal(expected_data, student_data.reset_index(drop=True))\n'
+                                               '...     except AssertionError:\n'
+                                               "...         raise AssertionError('Incorrect answer.')\n",
+                                       'hidden': False,
+                                       'locked': False}],
                       'scored': True,
                       'setup': '',
                       'teardown': '',
